@@ -6,6 +6,7 @@
     <title>Konversi Suhu</title>
 </head>
    <a href="convert-panjang.php">|Konversi satuan panjang|</a>
+   <a href="convert-weight.php">|Konversi satuan berat|</a>
     <!-- Pengguna menginput suhu dalam celcius lalu akan muncul hasil perubahannya -->
     <h2>Konversi Suhu Celcius</h2>
     <form action="" method="POST">
