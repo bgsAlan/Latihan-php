@@ -66,7 +66,7 @@ $result = mysqli_query($conn, "SELECT * FROM books");
                             </a>
 
                             <a
-                                href="hapus.php?id=<?= $book['id']; ?>"
+                                href="logic/proses_delete.php?id=<?= $book['id']; ?>"
                                 onclick="return confirm('Yakin mau hapus buku ini?')"
                                 class="flex-1 bg-red-500 text-white text-center py-2 rounded-lg font-semibold hover:bg-red-600 transition"
                             >
