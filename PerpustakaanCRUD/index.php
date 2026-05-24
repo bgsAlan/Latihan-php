@@ -59,7 +59,7 @@ $result = mysqli_query($conn, "SELECT * FROM books");
                         <div class="flex gap-2">
 
                             <a
-                                href="edit.php?id=<?= $book['id']; ?>"
+                                href="logic/proses_update.php?id=<?= $book['id']; ?>"
                                 class="flex-1 bg-yellow-400 text-center py-2 rounded-lg font-semibold hover:bg-yellow-500 transition"
                             >
                                 Edit
