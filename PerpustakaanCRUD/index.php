@@ -18,6 +18,11 @@ $result = mysqli_query($conn, "SELECT * FROM books");
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold"> Perpustakaan</h1>
 
+            <form action="logic/proses_search.php" method="GET">
+                <input type="text" name="search" class="text-black rounded-2xl p-1">
+                <button type="submit" name="submit">Cari</button>
+            </form>
+
             <a href="logic/proses_add.php" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">
                 + Tambah Buku
             </a>
